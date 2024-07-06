@@ -1,0 +1,52 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Increased padding for more breadth */
+  background-color: #fff; /* Orange color */
+  border-bottom: 1px solid #ccc;
+  width: 100%; /* Ensures the navbar fills the entire width */
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+  z-index: 1000;
+}
+
+.navbar-logo img {
+  height: 50px; /* Increased logo size for visibility */
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin: 0 20px; /* Increased spacing between items */
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color:black; /* Blue color */
+  font-size: 18px; /* Increased font size */
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.navbar-item a:hover {
+  background-color: #FF6E00;
+  border-radius: 10px;
+  padding:10px;
+  color:black;
+}
+
+.navbar-contact img {
+  height: 50px; /* Increased icon size for visibility */
+}

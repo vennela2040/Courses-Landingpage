@@ -1,0 +1,132 @@
+
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color:#0F5076;
+    color: #fff;
+    /* border-radius: 10px; */
+  }
+  
+  .hero-text {
+    width: 60%;
+    font:Inter;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-text h1 span{
+    color: skyblue;
+  }
+  
+  .hero-text h3{
+    font-weight: 0px;
+  }
+
+  .hero-form {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+  }
+  
+  .hero-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .hero-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .hero-form input, .hero-form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #777171;
+    border-radius: 5px;
+  }
+  
+  .hero-form button {
+    background-color:#0F5076;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .hero-form button:hover {
+    background-color:#0F5076;
+  }
+  
+  .hero-form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .hero-form label input {
+    margin-right: 10px;
+  }
+  
+  .course-info-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  .course-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .info-item {
+    flex: 1 1 20%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #0F5076;
+    text-align: center;
+  }
+  
+  .info-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .info-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .about-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-left: 30px;
+  }
+  
+  .about-section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    color:#0F5076;
+  }
+  
+  .about-section p {
+    margin-top: 5px;
+    font-size: 20px;
+    color: #555;
+    padding:40px;
+  }
+  

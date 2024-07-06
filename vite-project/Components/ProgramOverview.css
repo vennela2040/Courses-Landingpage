@@ -1,0 +1,38 @@
+.program-overview {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top: 40px;
+  }
+  
+  .program-overview h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .overview-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .overview-item {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  
+  .overview-item img {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+  }
+  
+  .overview-item p {
+    font-size: 16px;
+    color: #555;
+  }
+  
