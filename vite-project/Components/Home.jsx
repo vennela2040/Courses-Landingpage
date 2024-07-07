@@ -7,9 +7,10 @@ const Home = () => {
       <div className="hero-section">
         <div className="hero-text">
           <h1>TECHQUIXOR</h1>
-          <h1>certified <span>Full Stack Development Course </span>with Internship Oppurtunity.</h1>
-          <h3>Join the 3 months course right now !</h3>
-         </div>
+          <h1>certified <span>Full Stack Development Course</span> with Internship Opportunity.</h1>
+          <h3>Join the 3 months course right now!</h3>
+          <h3>Up-skill your knowledge in Full Stack Development with this program which consists of Live Online classes followed by internship opportunities in other companies.</h3>
+        </div>
         <div className="hero-form">
           <h2>I’m Interested</h2>
           <form>
@@ -25,26 +26,55 @@ const Home = () => {
         </div>
       </div>
 
+      <div className="monsoon-sale">
+        <p>Monsoon sale is Live on this Course 🌧️</p>
+        <h3>Coupon code: MONSOONSALE</h3>
+        {/* <button>ENROLL NOW</button> */}
+        <div className="timer">
+          <div className="time-box">
+            <span>0</span>
+            <p>DAYS</p>
+          </div>
+          <div className="time-box">
+            <span>07</span>
+            <p>HOURS</p>
+          </div>
+          <div className="time-box">
+            <span>07</span>
+            <p>MINS</p>
+          </div>
+          <div className="time-box">
+            <span>07</span>
+            <p>SECS</p>
+          </div>
+        </div>
+        <button>ENROLL NOW</button>
+      </div>
+
       <div className="course-info-section">
         <div className="course-info">
           <div className="info-item">
             <h3>Duration</h3>
-            <p>3 Months (Weekdays) / 5 Months (Weekends)</p>
+            <p>6 Months</p>
           </div>
           <div className="info-item">
             <h3>Format</h3>
             <p>Online</p>
           </div>
           <div className="info-item">
+            <h3>Pricing</h3>
+            <p>Depends on the score of Assignment Test</p>
+          </div>
+          <div className="info-item">
             <h3>Course</h3>
-            <p>Live Online Classes + Lifetime access to Recorded Videos</p>
+            <p>Live Online Classes</p>
           </div>
         </div>
       </div>
 
       <div className="about-section">
         <h2>About Techquixor’s Full Stack Development Course</h2>
-        <p>Our IIT-M Pravartak Certified Full Stack Development Course with AI Tools offers a pinnacle of real-time learning and expert mentorship. Harness our AI-powered platforms for round-the-clock project guidance and customized interview preparation. From exciting hackathons to insightful webinars and a supportive community, this course offers it all, with learning options in Tamil, Kannada, Hindi, and English. Step into the Full-stack development industry with confidence and a network of industry leaders to back you.</p>
+        <p>TechQuixor is offering a certified Full Stack Development course where anyone can join and enhance their skills in the Web Technologies. The course offers a real-time learning with skilled mentors and a supportive community with learning options in English and Telugu.So join the course and step into the Full stack world, mastering the art in just 3 months.</p>
       </div>
     </div>
   );

@@ -1,13 +1,14 @@
 import Home from "../Components/Home"
+import InstructorsSlider from "../Components/InstructorsSlider"
 import NavBar from "../Components/NavBar"
-import ProgramOverview from "../Components/ProgramOverview"
+
 
 function App() {
   return (
     <>
       <NavBar />
       <Home />
-      <ProgramOverview />
+      <InstructorsSlider />
     </>
   )
 }
