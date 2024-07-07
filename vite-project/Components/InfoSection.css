@@ -1,0 +1,136 @@
+.info-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.section-title {
+  color: #ff6600; 
+  margin-bottom: 20px;
+}
+
+.section-title-2 {
+  font-size: 1.5em;
+  color: #020202; 
+  margin-bottom: 20px;
+}
+
+.dates-section p, .more-info-section p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.more-info-section {
+  margin: 40px 0;
+}
+
+.info-circles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  box-shadow: #020202cd;
+}
+
+.info-circle {
+  background-color: white;
+  border-radius: 50%;
+  margin:40px;
+  border:6px solid rgba(4, 202, 196, 0.669);
+  color:rgba(17, 58, 116, 0.904);
+  font-size: 24px;
+  font-weight: 800;
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.288);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.info-circle:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.faq-section {
+  margin-top: 40px;
+}
+
+.faq-item {
+  background-color: white;
+  margin: 10px 0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.faq-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  font-size: 1em;
+  color: #666;
+}
+
+.faq-icon {
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .info-circle {
+    width: 120px;
+    height: 120px;
+    padding: 15px;
+  }
+
+  .section-title {
+    font-size: 1.5em;
+  }
+
+  .faq-question {
+    font-size: 1em;
+  }
+
+  .faq-answer {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-section {
+    padding: 20px 10px;
+  }
+
+  .info-circle {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 1.2em;
+  }
+
+  .faq-question {
+    font-size: 0.9em;
+  }
+
+  .faq-answer {
+    font-size: 0.8em;
+  }
+}
