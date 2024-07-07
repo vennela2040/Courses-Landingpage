@@ -1,0 +1,60 @@
+/* General Footer Styling */
+.footer {
+  background-color: #0b4d70e4; /* Dark blue background */
+  color: #ffffff;            /* White text */
+  padding: 30px 20px;       /* Comfortable padding */
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  display: flex;            /* Enable flexbox for layout flexibility */
+  justify-content: space-around; /* Distribute items evenly */
+  align-items: center;      /* Vertically align items to center */
+  flex-wrap: wrap;          /* Allow wrapping on smaller screens */
+  margin-bottom: 20px;      /* Add space below the main content */
+}
+
+/* Social Icons */
+.social-icons a {
+  display: inline-block;   /* Treat each icon as a block for spacing */
+  margin: 0 15px;        /* Space between icons */
+  font-size: 30px;      /* Icon size */
+  color: #ffffff;        /* White icons */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.social-icons a:hover {
+  transform: translateY(-5px); /* Move slightly up on hover */
+  color: #ff6600;       /* Change to orange on hover */
+}
+
+/* Contact Information */
+.contact-info {
+  font-size: 18px; 
+  line-height: 1.6;       /* Improve readability with line spacing */
+}
+
+.contact-info p {
+  margin: 5px 0;        /* Smaller margins between paragraphs */
+}
+
+/* Copyright */
+.copyright {
+  font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) { 
+  .footer-content {
+    flex-direction: column;  /* Stack elements vertically on small screens */
+  }
+
+  .social-icons {
+    margin-bottom: 20px;  /* Add space below icons on small screens */
+  }
+
+  .contact-info p {
+    text-align: center;   /* Center text in contact info */
+  }
+}
