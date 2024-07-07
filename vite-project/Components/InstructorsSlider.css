@@ -1,12 +1,14 @@
 .instructor-cards {
-  width: 80%;
-  margin: 0 auto;
+  width: 1000px;
+  margin: -15px auto;
+  padding:20px;
+  margin-top: -40px;
 }
 
 .instructor-cards .card {
   background: #f9f9f9;
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -17,6 +19,13 @@
   background: #e0e0e0;
   border-radius: 50%;
   margin: 0 auto 10px;
+}
+
+.instructor-cards h2{
+  font-size: 30px;
+  font-weight: bold;
+  color:#FF6E00;
+  margin-left: 400px;
 }
 
 .instructor-cards .card h3 {
