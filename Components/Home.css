@@ -1,4 +1,24 @@
 
+.home-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.pg-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  /* Style your content here */
+}
+
 .hero-section {
   display: flex;
   justify-content: space-between;
@@ -112,6 +132,10 @@
   background-color: #fff;
   border-radius: 10px;
   margin-left: 40px;
+  /* text-align: center; */
+}
+.centered_h2{
+  text-align: left;
 }
 
 .about-section h2 {
@@ -119,9 +143,9 @@
   margin-bottom: 20px;
   justify-content: center;
   align-items: center;
-  margin-left: 200px;
+  /* margin-left: 20px; */
   color: #0F5076;
-  margin-left:300px;
+  text-align: center;
 }
 
 .about-section p {
