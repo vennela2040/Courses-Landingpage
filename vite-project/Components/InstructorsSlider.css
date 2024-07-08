@@ -1,0 +1,108 @@
+/* Instructor Cards Section */
+.instructor-cards {
+  width: 100%;
+  max-width: 1000px;
+  margin: -15px auto;
+  padding: 20px;
+  margin-top: -40px;
+  margin-bottom: 50px;
+}
+
+.instructor-cards h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF6E00;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instructor-cards .card {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructor-cards .card .avatar {
+  width: 80px;
+  height: 80px;
+  background: #e0e0e0;
+  border-radius: 50%;
+  margin: 0 auto 10px;
+}
+
+.instructor-cards .card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.instructor-cards .card p {
+  color: #777;
+  font-size: 1em;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+@media (max-width: 1024px) {
+  .instructor-cards h2 {
+    font-size: 26px;
+  }
+
+  .instructor-cards .card {
+    padding: 20px;
+  }
+
+  .instructor-cards .card h3 {
+    font-size: 1.1em;
+  }
+
+  .instructor-cards .card p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 600px) {
+  .instructor-cards .card {
+    padding: 15px;
+  }
+
+  .instructor-cards .card .avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .instructor-cards .card h3 {
+    font-size: 1em;
+  }
+
+  .instructor-cards .card p {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 480px) {
+  .instructor-cards h2 {
+    font-size: 22px;
+  }
+
+  .instructor-cards .card {
+    padding: 10px;
+  }
+
+  .instructor-cards .card .avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .instructor-cards .card h3 {
+    font-size: 0.9em;
+  }
+
+  .instructor-cards .card p {
+    font-size: 0.7em;
+  }
+}

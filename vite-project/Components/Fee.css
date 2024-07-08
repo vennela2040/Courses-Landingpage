@@ -1,0 +1,66 @@
+.program-fee-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color:#0b4d70e4; 
+  }
+  
+  .program-fee-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .program-fee-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .program-fee-title {
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .program-fee-text {
+    font-size: 1.2em;
+    color: #666;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .program-fee-card {
+      padding: 20px;
+    }
+  
+    .program-fee-title {
+      font-size: 1.5em;
+    }
+  
+    .program-fee-text {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .program-fee-section {
+      padding: 20px 10px;
+    }
+  
+    .program-fee-card {
+      padding: 15px;
+    }
+  
+    .program-fee-title {
+      font-size: 1.2em;
+    }
+  
+    .program-fee-text {
+      font-size: 0.9em;
+    }
+  }
