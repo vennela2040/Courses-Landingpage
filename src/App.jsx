@@ -8,7 +8,7 @@ import Review from "../Components/Review"
 import Fee from "../Components/Fee"
 import InfoSection from "../Components/InfoSection"
 import Footer from "../Components/Footer"
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 
