@@ -35,9 +35,9 @@
 .info-circle {
   background-color: white;
   border-radius: 50%;
-  margin:40px;
-  border:6px solid rgba(4, 202, 196, 0.669);
-  color:rgba(17, 58, 116, 0.904);
+  margin: 40px;
+  border: 6px solid rgba(4, 202, 196, 0.669);
+  color: rgba(17, 58, 116, 0.904);
   font-size: 24px;
   font-weight: 800;
   padding: 20px;
@@ -96,6 +96,7 @@
     width: 120px;
     height: 120px;
     padding: 15px;
+    margin: 20px;
   }
 
   .section-title {
@@ -109,6 +110,10 @@
   .faq-answer {
     font-size: 0.9em;
   }
+
+  .more-info-section, .faq-section {
+    margin: 20px 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -120,6 +125,7 @@
     width: 100px;
     height: 100px;
     padding: 10px;
+    margin: 10px;
   }
 
   .section-title {
@@ -132,5 +138,9 @@
 
   .faq-answer {
     font-size: 0.8em;
+  }
+
+  .more-info-section, .faq-section {
+    margin: 10px 0;
   }
 }

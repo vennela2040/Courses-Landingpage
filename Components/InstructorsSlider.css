@@ -1,7 +1,7 @@
 .instructor-cards {
   width: 1000px;
   margin: -15px auto;
-  padding:20px;
+  padding: 20px;
   margin-top: -40px;
   margin-bottom: 50px;
 }
@@ -22,11 +22,11 @@
   margin: 0 auto 10px;
 }
 
-.instructor-cards h2{
+.instructor-cards h2 {
   font-size: 30px;
   font-weight: bold;
-  color:#FF6E00;
-  margin-left: 400px;
+  color: #FF6E00;
+  text-align: center;
 }
 
 .instructor-cards .card h3 {
@@ -42,4 +42,66 @@
 .slick-prev:before,
 .slick-next:before {
   color: black;
+}
+
+@media (max-width: 1024px) {
+  .instructor-cards {
+    width: 90%;
+  }
+
+  .instructor-cards .card {
+    padding: 30px;
+  }
+
+  .instructor-cards h2 {
+    font-size: 28px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .instructor-cards {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .instructor-cards .card {
+    padding: 20px;
+  }
+
+  .instructor-cards h2 {
+    font-size: 26px;
+    margin-left: 0;
+  }
+
+  .instructor-cards .card h3 {
+    font-size: 1.1em;
+  }
+
+  .instructor-cards .card p {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .instructor-cards {
+    padding: 10px;
+  }
+
+  .instructor-cards .card {
+    padding: 15px;
+  }
+
+  .instructor-cards h2 {
+    font-size: 24px;
+    margin-left: 0;
+  }
+
+  .instructor-cards .card h3 {
+    font-size: 1em;
+  }
+
+  .instructor-cards .card p {
+    font-size: 0.8em;
+  }
 }

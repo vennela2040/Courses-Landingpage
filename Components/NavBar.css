@@ -86,3 +86,22 @@
     display: block;
   }
 }
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 15px 20px;
+  }
+
+  .navbar-logo img {
+    height: 40px;
+  }
+
+  .navbar-item a {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  .navbar-toggle-icon {
+    font-size: 24px;
+  }
+}

@@ -1,4 +1,3 @@
-
 .home-container {
   position: relative;
   width: 100vw;
@@ -134,7 +133,8 @@
   margin-left: 40px;
   /* text-align: center; */
 }
-.centered_h2{
+
+.centered_h2 {
   text-align: left;
 }
 
@@ -161,22 +161,20 @@
   text-align: center;
   margin: 5px 90px;
   border-radius: 30px;
-
-
 }
 
 .monsoon-sale p {
   margin: 10px 0;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 20px;
   color: #fff;
 }
 
-.monsoon-sale h3{
+.monsoon-sale h3 {
   margin: 10px 0;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 25px;
-  color:  #0F5076;
+  color: #0F5076;
 }
 
 .monsoon-sale button {
@@ -197,7 +195,7 @@
 }
 
 .time-box {
-  background-color:transparent;
+  background-color: transparent;
   /* border: 1px solid #ccc; */
   padding: 10px;
   margin: 0 5px;
@@ -215,4 +213,126 @@
 .time-box p {
   margin: 0;
   font-size: 12px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .hero-text {
+    width: 50%;
+  }
+
+  .hero-form {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-form {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .course-info-section {
+    padding: 15px;
+  }
+
+  .info-item {
+    flex: 1 1 45%;
+    margin: 10px 5px;
+    padding: 15px;
+  }
+
+  .about-section {
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  .about-section h2 {
+    font-size: 24px;
+  }
+
+  .about-section p {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-form {
+    padding: 15px;
+  }
+
+  .course-info-section {
+    padding: 10px;
+  }
+
+  .info-item {
+    flex: 1 1 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .about-section {
+    padding: 10px;
+  }
+
+  .about-section h2 {
+    font-size: 20px;
+  }
+
+  .about-section p {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .monsoon-sale {
+    margin: 5px 20px;
+    padding: 10px;
+  }
+
+  .monsoon-sale p {
+    font-size: 18px;
+  }
+
+  .monsoon-sale h3 {
+    font-size: 20px;
+  }
+
+  .monsoon-sale button {
+    padding: 8px 15px;
+  }
+
+  .timer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .time-box {
+    margin: 5px 0;
+  }
+
+  .time-box span {
+    font-size: 24px;
+  }
+
+  .time-box p {
+    font-size: 10px;
+  }
 }

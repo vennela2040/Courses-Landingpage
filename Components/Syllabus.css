@@ -1,5 +1,5 @@
 .syllabus-container {
-  padding: 0 20px 60px 20px;
+  padding: 20px;
   max-width: 100%;
   margin: 0 auto;
   display: flex;
@@ -13,7 +13,7 @@
 .syllabus-title {
   color: #f60;
   font-size: 26px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .syllabus-content {
@@ -34,7 +34,7 @@
   overflow: hidden;
   transition: transform 0.5s ease-in-out;
   padding: 20px;
-  max-width: 600px; /* Add this line */
+  max-width: 600px; /* Limit width for larger screens */
 }
 
 .syllabus-item img {
