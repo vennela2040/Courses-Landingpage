@@ -1,5 +1,3 @@
-// Syllabus.jsx
-
 import React from 'react';
 import './Syllabus.css';
 import htmlLogo from '../assets/html5.png';
@@ -7,7 +5,8 @@ import cssLogo from '../assets/css3.png';
 import jsLogo from '../assets/js.png';
 import reactLogo from '../assets/react.png';
 import tailwindLogo from '../assets/tailwind.png';
-import syllabusPdf from '../assets/syllabus.pdf';
+import nodeLogo from '../assets/node.png';
+
 
 const Syllabus = () => {
     return (
@@ -30,10 +29,11 @@ const Syllabus = () => {
                     <div className="syllabus-item">
                         <img src={reactLogo} alt="React" />
                     </div>
+                    <div className="syllabus-item">
+                        <img src={nodeLogo} alt="NodeJS" />
+                    </div>
                 </div>
-                <div className="view-more">
-                    <a href={syllabusPdf} target="_blank" rel="noopener noreferrer">View More&gt;&gt;</a>
-                </div>
+                
             </div>
             <div className="pagination-dots">
                 <span className="dot"></span>
