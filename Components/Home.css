@@ -303,20 +303,58 @@
   }
 
   .monsoon-sale {
-    margin: 5px 20px;
-    padding: 10px;
+    background-color: #f0f0f0;
+    padding: 40px;
+    margin-top: 20px;
+    text-align: center;
   }
-
+  
   .monsoon-sale p {
     font-size: 18px;
+    color: #333;
   }
-
+  
   .monsoon-sale h3 {
-    font-size: 20px;
+    font-size: 24px;
+    color: #555;
+    margin-bottom: 20px;
   }
-
-  .monsoon-sale button {
-    padding: 8px 15px;
+  
+  .monsoon-sale .timer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .monsoon-sale .time-box {
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .monsoon-sale .time-box span {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .monsoon-sale .time-box p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .monsoon-sale .enroll-link {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none; /* Ensure it looks like a button */
+    transition: background-color 0.3s ease;
+  }
+  
+  .monsoon-sale a .enroll-link:hover {
+    background-color: #0056b3;
   }
 
   .timer {
