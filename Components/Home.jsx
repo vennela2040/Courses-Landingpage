@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Home.css';
 import axios from 'axios';
 
@@ -13,6 +13,8 @@ const Home = () => {
     phone: '',
     discount: false
   });
+
+  const formRef = useRef(null);
 
   const targetDate = new Date();
   targetDate.setDate(targetDate.getDate() + 7); // Example: 7 days from now
@@ -73,6 +75,10 @@ const Home = () => {
     }
   };
 
+  const scrollToForm = () => {
+    formRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className="home">
       <div className="hero-section">
@@ -82,9 +88,9 @@ const Home = () => {
           <h3>Join the 3 months course right now!</h3>
           <h3>Up-skill your knowledge in Full Stack Development with this program which consists of Live Online classes followed by internship opportunities in other companies.</h3>
         </div>
-        <div className="hero-form">
+        <div className="hero-form" ref={formRef}>
           <h2>I’m Interested</h2>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} id="myForm">
             <input type="text" name="name" placeholder="Name" value={formData.name} onChange={handleChange} required />
             <input type="email" name="email" placeholder="Email" value={formData.email} onChange={handleChange} required />
             <input type="tel" name="phone" placeholder="Phone" value={formData.phone} onChange={handleChange} required />
@@ -118,7 +124,7 @@ const Home = () => {
             <p>SECS</p>
           </div>
         </div>
-        <button onClick={handleSubmit}>ENROLL NOW</button>
+        <button onClick={scrollToForm}>ENROLL NOW</button>
       </div>
 
       <div className="course-info-section">
