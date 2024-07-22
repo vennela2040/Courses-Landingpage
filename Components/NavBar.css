@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 10px 10px;
   background-color: #fff;
   border-bottom: 1px solid #ccc;
   width: 100%;
@@ -37,7 +37,7 @@
   color: black;
   font-size: 18px;
   font-weight: bold;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 
 .navbar-item a:hover {

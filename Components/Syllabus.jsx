@@ -11,7 +11,7 @@ import mongoLogo from '../assets/mongodb.png';
 import sqlLogo from '../assets/sql.png';
 import chatgptLogo from '../assets/chatgpt.png';
 
-const Syllabus = () => {
+const Syllabus = React.forwardRef((props, ref) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideInterval = useRef(null);
 
@@ -50,7 +50,7 @@ const Syllabus = () => {
   };
 
   return (
-    <div className="syllabus-container">
+    <div ref={ref} className="syllabus-container">
       <h2 className="syllabus-title">Syllabus</h2>
       <div className="syllabus-content">
         <div className="syllabus-item">
@@ -72,6 +72,6 @@ const Syllabus = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Syllabus;
