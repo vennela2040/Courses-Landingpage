@@ -84,7 +84,7 @@ const Home = () => {
       <div className="hero-section">
         <div className="hero-text">
           <h1>TECHQUIXOR</h1>
-          <h1>certified <span>Full Stack Development Course</span> with Internship Opportunity.</h1>
+          <h1>certified <span className="typing-animation">Full Stack Development</span> Course with Internship Opportunity.</h1>
           <h3>Join the 3 months course right now!</h3>
           <h3>Up-skill your knowledge in Full Stack Development with this program which consists of Live Online classes followed by internship opportunities in other companies.</h3>
         </div>
@@ -103,7 +103,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="monsoon-sale">
+      {/* <div className="monsoon-sale">
         <p>Monsoon sale is Live on this Course 🌧️</p>
         <h3>Coupon code: MONSOONSALE</h3>
         <div className="timer">
@@ -125,7 +125,7 @@ const Home = () => {
           </div>
         </div>
         <button onClick={scrollToForm}>ENROLL NOW</button>
-      </div>
+      </div> */}
 
       <div className="course-info-section">
         <div className="course-info">

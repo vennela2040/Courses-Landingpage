@@ -1,79 +1,73 @@
-/* General Footer Styling */
 .footer {
-  background-color: #0b4d70e4; /* Dark blue background */
-  color: #ffffff;              /* White text */
-  padding: 30px 20px;          /* Comfortable padding */
-  text-align: center;
-  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
-.footer-content {
-  display: flex;               /* Enable flexbox for layout flexibility */
-  justify-content: space-around; /* Distribute items evenly */
-  align-items: center;         /* Vertically align items to center */
-  flex-wrap: wrap;             /* Allow wrapping on smaller screens */
-  margin-bottom: 20px;         /* Add space below the main content */
+.footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-left: 10%;
+  padding:10px;
 }
 
-/* Social Icons */
-.social-icons a {
-  display: inline-block;       /* Treat each icon as a block for spacing */
-  margin: 0 15px;              /* Space between icons */
-  font-size: 30px;             /* Icon size */
-  color: #ffffff;              /* White icons */
-  transition: all 0.3s ease;   /* Smooth transition for hover effects */
+.footer .contact-info, .footer .about {
+  flex: 1;
+  margin: 0 20px;
 }
 
-.social-icons a:hover {
-  transform: translateY(-5px); /* Move slightly up on hover */
-  color: #ff6600;              /* Change to orange on hover */
+.footer .contact-info p, .footer .about p {
+  margin: 5px 0;
 }
 
-/* Contact Information */
-.contact-info {
-  font-size: 18px; 
-  line-height: 1.6;            /* Improve readability with line spacing */
+.footer .contact-info i, .footer .about i {
+  margin-right: 10px;
 }
 
-.contact-info p {
-  margin: 5px 0;               /* Smaller margins between paragraphs */
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-/* Copyright */
+.footer .social-icons a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer .social-icons a:hover {
+  color: #00aced;
+}
+
+.footer .contact-info, .footer .about p {
+  margin: 10px 0;
+}
+
+.footer .about h4 {
+  margin-bottom: 10px;
+}
+
+.footer .contact-info p, .footer .about p {
+  color: #ccc;
+}
+
+.footer .contact-info a, .footer .contact-info p {
+  color: #fff;
+}
+
+.footer .contact-info a:hover, .footer .social-icons a:hover {
+  text-decoration: underline;
+}
+
 .copyright {
-  font-size: 14px;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .footer-content {
-    flex-direction: column;    /* Stack elements vertically on small screens */
-  }
-
-  .social-icons {
-    margin-bottom: 20px;       /* Add space below icons on small screens */
-  }
-
-  .contact-info p {
-    text-align: center;        /* Center text in contact info */
-  }
-}
-
-@media (max-width: 480px) {
-  .footer {
-    padding: 20px 10px;        /* Reduce padding on very small screens */
-  }
-
-  .social-icons a {
-    font-size: 25px;           /* Slightly smaller icons on very small screens */
-    margin: 0 10px;            /* Reduce space between icons */
-  }
-
-  .contact-info {
-    font-size: 16px;           /* Slightly smaller text for contact info */
-  }
-
-  .copyright {
-    font-size: 12px;           /* Slightly smaller copyright text */
-  }
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
 }
